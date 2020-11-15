@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A* Visualisation</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            Let's search!
+        </h1>
+        <canvas id="display">
+            Your browser does not support the canvas element
+        </canvas>
+        <section id="controls">
+            <form id="setParams">
+                <label for="rows">Set your grid size</label>
+                <input id="rows" name="rows" type="number" min="1" max="15" value="5">
+                <button type="submit">Set</button>
+            </form>
+            <div id="solver">
+                <button>Next</button>
+                <button>Prev</button>
+                <button>Solve</button>
+            </div>
+        </section>
+
+
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

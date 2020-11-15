@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+}
+
+#controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+#solver {
+    display: flex;
+    flex-direction: column;
+}
+
+#solver > * {
+    margin-top: 10px;
+    height: 1.3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin-top: 10px;
+    height: 1.3rem;
+}
+
