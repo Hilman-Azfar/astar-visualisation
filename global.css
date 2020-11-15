@@ -1,3 +1,7 @@
+body {
+    background-color: cornsilk;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -18,6 +22,14 @@ canvas {
     width: 400px;
 }
 
+#howTo {
+    flex: 1;
+}
+
+#howTo > ol {
+    padding: 1em;
+}
+
 #solver {
     display: flex;
     flex-direction: column;
@@ -31,6 +43,7 @@ canvas {
 form {
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
 }
 
 form > * {

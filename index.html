@@ -16,15 +16,22 @@
             Your browser does not support the canvas element
         </canvas>
         <section id="controls">
+            <div id="howTo">
+                <ol>
+                    <li>Select your grid size</li>
+                    <li>Click solve to find the path</li>
+                    <li>Create obstacles by clicking on the blue tiles</li>
+                </ol>
+            </div>
             <form id="setParams">
                 <label for="area">Set your grid size</label>
-                <input id="area" name="area" type="number" min="2" max="15" value="2">
+                <input id="area" name="area" type="number" min="2" max="15" value="7">
                 <button type="submit">Set</button>
             </form>
             <div id="solver">
                 <button>Next</button>
                 <button>Prev</button>
-                <button>Solve</button>
+                <button id="solve-btn">Solve</button>
             </div>
         </section>
 
